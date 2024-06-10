@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #333;
+  color: rgb(12, 95, 190);
+  padding: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding:0;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project {
+  flex: 1 1 calc(33.333% - 1rem);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+form label {
+  display: block;
+  margin: 1rem 0;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+form span {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.profile-image {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 50%; /* Makes the image circular */
+  margin: 20px 0;
+}
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-top: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+}
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Optional: Ensure footer is styled appropriately */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(22, 20, 20);
+  padding: 10px 0;
+}
